@@ -1,1 +1,5 @@
-<h1> Player 1: <%= @player1 %>, Player 2: <%= @player2 %> </h1>
+<h1> <%= @player1 %> Vs <%= @player2 %> </h1>
+<h3> <%= @player2 %>'s HP: <%= @player2hp %> </h3>
+<label for="min_hp">0</label>
+  <progress value = <%= @player2hp %> max= <%= @maxhp %>> </progress>
+<label for="max_hp">100</label>
