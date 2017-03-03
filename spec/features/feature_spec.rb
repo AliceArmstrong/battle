@@ -1,5 +1,4 @@
 require 'spec_helper'
-require 'player'
 
 RSpec.feature "initialising battle game with 2 players" do
   scenario "allows players to enter their names and see them" do
